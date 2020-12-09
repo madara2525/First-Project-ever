@@ -1,0 +1,12 @@
+الفونتس المستخدمه :
+Lobster 
+ +
+Montserrat
+
+==========================
+
+الالوان : 
+background: radial-gradient(#525252 , #131313);
+background: #323232;
+background: #F54A3D
+background-color: #070707;

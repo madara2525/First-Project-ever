@@ -1,0 +1,188 @@
+/* fonts */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*         General Container */
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/*        The Navbar Section */
+
+.navBar{
+    background: black;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.navBar ul {
+    display: inline-block;
+    margin: 0px;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    float: left;
+    background-color: #F54A3D;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border-radius: 50px;
+    font-family: 'Lobster', cursive; 
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0%;
+    font-size: 24px;
+    font-weight: 500;
+}
+.featuresLink{
+    float:right;
+    margin-right: 90px;
+    line-height: 60px;
+}
+.featuresLink a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.order{
+    float: right;
+    background-color: #F54A3D;
+    border-radius: 40%;
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
+    padding: 6px 14px;
+    border-radius: 58px;
+    text-decoration: none;
+}
+.order a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.ul2 {
+    float: right;
+}
+
+/*                  Leica M6 Section */
+
+.m6Div{
+    background: radial-gradient(#525252 , #131313);
+    overflow: hidden;
+}
+.divTitle{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    color: white;
+}
+.m6Image{
+    text-align: center;
+}
+.m6Para{
+    float: right;
+    color: white;
+    width: 350px;
+}
+.m6Para h3{
+    font-size: 40px;
+}
+.m6Para p{
+    font-size: 28px;
+    font-weight: 100;
+}
+/*                      features */
+
+.features{
+    background: #252525;
+    overflow: hidden;
+    
+}
+.featurescards{
+    display: inline-block;
+    color: black;
+    margin: 75px;
+    padding: 0%;
+    float: left;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+    width: 272px;
+    overflow: hidden;
+}
+.featurescards h3{
+    font-size: 35px;
+    margin: 7px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.featurescards p{
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contain2{
+    overflow: hidden;
+    background-image: url('assets/wave.png');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 300px;
+    background-size: 100%;
+    height: 480px;
+}
+
+/*                  last div "coming Soon" */
+
+.comingSoon{
+    background: radial-gradient(#525252 , #131313);
+    overflow: hidden;   
+}
+.imgSoon{    
+    text-align: center;
+    margin-top: 0px;
+}
+.comingSoon .container{
+    position: relative;
+}
+
+/*                                   footer */
+
+.footer{
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.signature{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 19px;
+    padding: 0px;
+    margin-top:-6px;
+    float: left;
+}
+.footer li{
+    display: inline-block;
+    margin-right: 10px;
+    float: right;
+    padding: 0px;
+    margin-top:px;
+}
+.footer li img{
+    padding: 0px;
+    margin-right: 40px;
+    margin-top: -6px;
+}
